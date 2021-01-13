@@ -2,14 +2,16 @@
 
 body{
     font-family: 'Oswald', sans-serif;
+    
 }
 
 .playlist{
-    width: 450px;
-    height: 800px;
-    background-color: #ff6347;
-    border:5px solid wheat;
+    width: 400px;
+    height: 750px;
+    background-color: #F93822FF;
+    border:5px solid #FDD20EFF;
     padding:50px 30px;
+    
 }
 
 .status-bar{
@@ -19,4 +21,75 @@ body{
 }
 .status-bar__column{
     width: 33.3%;
+}
+
+.now-playing{
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.now-playing__album-photo{
+    height: 140px;
+    width:35%;
+    border-radius: 20%;
+    background-color: #FDD20EFF;
+    border:2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:20px;
+}
+
+.now-playing__album-title-big{
+    font-size:35px;
+    font-weight: 500;
+}
+
+.now-playing__album-title-sm{
+    font-size:20px;
+}
+
+.play-buttons{
+    display:flex;
+}
+
+.play-buttons__play{
+    width: 48%;
+    height:70px;
+    font-size: 25px;
+    border-radius: 15%;
+    background-color: #FDD20EFF;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    border-bottom:5px solid black;
+}
+
+.play-buttons__play span{
+    padding-left:20px;
+}
+
+.play-buttons__like{
+    background-color: #FDD20EFF;
+    height:70px; 
+    width: 70px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    border-bottom:5px solid black;
+}
+
+.play-buttons__add{
+    background-color: #FDD20EFF;
+    height:70px; 
+    width: 70px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:5px solid black;
 }
