@@ -2,12 +2,15 @@
 
 body{
     font-family: 'Oswald', sans-serif;
+    display:flex;
+    justify-content: center;
+    
     
 }
 
 .playlist{
     width: 400px;
-    height: 750px;
+    height: 800px;
     background-color: #F93822FF;
     border:5px solid #FDD20EFF;
     padding:50px 30px;
@@ -32,8 +35,8 @@ body{
     height: 140px;
     width:35%;
     border-radius: 20%;
-    background-color: #FDD20EFF;
-    border:2px solid black;
+    background-color: #e5ff0b;
+    border:5px solid wheat;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +67,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 35px;
+    border:3px solid black;
     border-bottom:5px solid black;
 }
 
@@ -80,6 +84,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 35px;
+    border:3px solid black;
     border-bottom:5px solid black;
 }
 
@@ -91,5 +96,58 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    border:3px solid black;
     border-bottom:5px solid black;
+}
+
+.next-list{
+    padding-top: 50px;
+}
+
+.next-list__num{
+    padding-bottom:40px;
+    display: flex;
+}
+
+.next-list__num-photo{
+    height: 65px;
+    width:15%;
+    border-radius: 20%;
+    border:3px solid wheat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:20px;
+}
+
+.next-list__num:nth-child(1) .next-list__num-photo{
+    background-color: #669DB3FF;
+}
+
+.next-list__num:nth-child(2) .next-list__num-photo{
+    background-color: #6DAC4FFF;
+}
+.next-list__num:nth-child(3) .next-list__num-photo{
+    background-color: #FF4F58FF;
+}
+
+.next-list__num:nth-child(4) .next-list__num-photo{
+    background-color: #F3DB74FF;
+}
+
+
+.next-list__num-info{
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.next-list__num-title{
+    font-size: 20px;
+}
+
+.next-list__num-singer{
+    font-weight:200;
+    font-size:15px;
 }
